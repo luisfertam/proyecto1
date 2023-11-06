@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 
 app.use(express.static(path.join(__dirname, 'public')))
 
-const uri  = 'mongodb+srv://luisfertam:4567283694Fo@pro1db.qtlvsjj.mongodb.net/test?retryWrites=true&w=majority'
+const uri  = 'mongodb+srv://luisfertam:-----@pro1db.qtlvsjj.mongodb.net/test?retryWrites=true&w=majority'
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
